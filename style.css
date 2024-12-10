@@ -77,49 +77,6 @@ body{
 
 
 
-
-
-.ti-ex{
-    font-family: "Bricolage Grotesque", serif;
-    font-size: 2.6rem;
-    font-weight: bolder;
-
-}
-.comy{
-    font-family: "Bricolage Grotesque", serif;
-    font-size: 1.6rem;
-    font-weight: 600;
-}
-.mon{
-    font-family: "Bricolage Grotesque", serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-    text-align: right;
-}
-
-.dec{
-    font-family: "Bricolage Grotesque", serif;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: normal;
-}
-
-
-
-.summary-c{
-    font-family: "Bricolage Grotesque";
-    padding: 8%;
-    font-size: 1rem;
-    background-color: #3c0e40;
-    color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 50px;
-    box-shadow: inset 0px 0 0px 2px #808080;
-    overflow: hidden;
-    
-}
-
-
 ::-moz-selection { /* Code for Firefox */
     color: #3c0e40;
     background: rgba(255, 255, 0, 0.26);
