@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Man Navlakha - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bodyl: '#ffffff', // Light mode background color
+            bodyd: '#000000', // Dark mode background color
+          }
+        }
+      }
+    };
+  </script>
+<script>
+    tailwind.config = {
+        darkMode: 'class',
+    }
+</script>
+</head>
+<body class="bg-bodyd dark:bg-blue-600 text-gray-900 dark:text-white transition-colors duration-300">
+    
+    <label class="inline-flex items-center cursor-pointer">
+        <input type="checkbox" onclick="(() => document.body.classList.toggle('dark'))()" value="dark" class="sr-only peer">
+        <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+        <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Dark Mode</span>
+      </label>
+      
+  <!-- Navigation Bar -->
+  <nav class="mt-5 mx-28 bg-white text-gray-600 rounded-full border border-slate-600 p-2 shadow opacity-75 dark:bg-gray-800 dark:text-white">
+    <ul class="flex flex-row gap-4 justify-center">
+      <li class="hover:text-blue-500 cursor-pointer">Home</li>
+      <li class="hover:text-blue-500 cursor-pointer">Experience</li>
+      <li class="hover:text-blue-500 cursor-pointer">Portfolio</li>
+    </ul>
+    
+
+  </nav>
+
+</body>
+</html>
