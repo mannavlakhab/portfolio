@@ -120,7 +120,16 @@ body{
 }
 
 
-
+::-moz-selection { /* Code for Firefox */
+    color: #3c0e40;
+    background: yellow;
+  }
+  
+  ::selection {
+    color: #3c0e40;
+    background: yellow;
+  }
+  
 
 
  @-webkit-keyframes animate-svg-stroke-1 {
